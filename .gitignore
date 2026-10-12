@@ -1,0 +1,25 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.log
+.venv/
+__pycache__/
+Small HAM/
+data/
+models/
+temp/
+desktop.ini
+*.pt
+*.pth
+*.onnx
+*.png
+*.jpg
+*.jpeg
+*.PNG
+*.JPG
+*.JPEG
+
+

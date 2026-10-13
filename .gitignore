@@ -1,25 +1,36 @@
 node_modules/
 dist/
 build/
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
 .env
 .env.*
 !.env.example
+
 *.log
-.venv/
-__pycache__/
-Small HAM/
-data/
-models/
-temp/
-desktop.ini
+
+/Small HAM/
+/raw_dataset_700/
+/processed_dataset_700/
+/data/
+
+/models/
+*.keras
+*.h5
 *.pt
 *.pth
 *.onnx
-*.png
-*.jpg
-*.jpeg
-*.PNG
-*.JPG
-*.JPEG
+*.tflite
 
+/temp/
+
+desktop.ini
+Thumbs.db
+
+.vscode/
+.idea/
 
